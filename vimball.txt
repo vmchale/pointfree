@@ -1,1 +1,3 @@
-syntax/pointfree.vimplugin/pointfree.vimdoc/pointfree.txt
+syntax/pointfree.vim
+plugin/pointfree.vim
+doc/pointfree.txt
