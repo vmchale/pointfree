@@ -86,9 +86,7 @@ fun! PointfreeGet(expression) "{{{
 
     call s:ScratchMarkBuffer()
 
-    " let line=getline('.')
-
-    execute '.!pointfree ' . g:pointfree_options . ' "' . expression . '"' . a:expression
+    execute '.!pointfree ' . g:pointfree_options . ' "' . a:expression . '"'
     setl nomodifiable
     
     let size = s:CountVisualLines()
