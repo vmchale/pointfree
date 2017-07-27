@@ -1,2 +1,0 @@
-- [ ] use \<Plug\> instead
-- [ ] docs

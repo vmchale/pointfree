@@ -7,7 +7,7 @@
 /❘                       ❘\
 \❘                       ❘/
 
-No, it's pointfree, not a free point!
+No, it's pointFREE, not a free point!
 
 =====================================================================
 CONTENTS                                         *PointfreeContents*
@@ -34,7 +34,7 @@ viz.
         :Pointfree \x -> x * 2
 <
 
-<Plug>Pointfree ......Run pointfree...................❘Pointfree-Key❘
+<Plug>Pointfree ......Run pointfree....................❘PointfreeKey❘
 
 =====================================================================
 Section 2: Config                                   *PointfreeConfig*
@@ -46,6 +46,13 @@ Default: ''
 
 To make 'pointfree' default to verbose output:  >
     let g:pointfree_exclude='--verbose'
+<
+
+                                                       *PointfreeKey*
+
+If you want to use the keybindings you'll have to add something like
+the following to your .vimrc: >
+    au BufNewFile,BufRead *.hs nmap pf <Plug>Pointfree
 <
 
 =====================================================================
