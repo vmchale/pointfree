@@ -110,4 +110,4 @@ endfunction "}}}
 
 command! -nargs=* Pointfree call PointfreeGet( '<args>' )
 command! PointfreeLine call PointfreeLine()
-map <silent> pf :PointfreeLine<CR>
+nnoremap <silent> <Plug>Pointfree :PointfreeLine<CR>

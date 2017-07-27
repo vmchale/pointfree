@@ -1,0 +1,54 @@
+*pointfree* Vim wrapper for the 'pointfree' executable
+                          _
+           o             ❘ ❘
+   _   __      _  _  _❘_ ❘ ❘  ,_    _   _
+ ❘/ \_/  \_❘  / ❘/ ❘  ❘  ❘/  /  ❘  ❘/  ❘/
+ ❘__/ \__/ ❘_/  ❘  ❘_/❘_/❘__/   ❘_/❘__/❘__/
+/❘                       ❘\
+\❘                       ❘/
+
+No, it's pointfree, not a free point!
+
+=====================================================================
+CONTENTS                                         *PointfreeContents*
+
+    1. Usage ...................................... ❘PointfreeUsage❘
+    2. Config .................................... ❘PointfreeConfig❘
+    3. License .................................. ❘PointfreeLicense❘
+
+=====================================================================
+Section 1: Usage                                     *PointfreeUsage*
+
+By default, pointfree-vim provides two commands and a keybinding,
+viz.
+
+:PointfreeLine                                       *:PointfreeLine*
+    Run pointfree on the current line and output to a scratch buffer,
+    e.g. >
+        :PointfreeLine
+<
+
+:Pointfree                                              *:Pointfree*
+    Run pointfree on a string and output to a scratch buffer,
+    e.g. >
+        :Pointfree \x -> x * 2
+<
+
+<Plug>Pointfree ......Run pointfree...................❘Pointfree-Key❘
+
+=====================================================================
+Section 2: Config                                   *PointfreeConfig*
+
+---------------------------------------------------------------------
+                                              *'g:pointfree_options'*
+Values: String containing flags for 'pointfree'
+Default: ''
+
+To make 'pointfree' default to verbose output:  >
+    let g:pointfree_exclude='--verbose'
+<
+
+=====================================================================
+Section 3: License                                 *PointfreeLicense*
+
+This plugin is licensed under the BDS3 license. 
