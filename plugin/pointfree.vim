@@ -4,7 +4,7 @@ endif
 let g:__POINTFREE_VIM__ = 1
 
 if !exists("g:pointfree_options")
-    let g:pointfree_exclude = ''
+    let g:pointfree_options = ''
 endif
 
 let g:pointfree_buf_name = 'Pointfree'
