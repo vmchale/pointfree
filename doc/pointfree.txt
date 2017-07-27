@@ -34,7 +34,7 @@ viz.
         :Pointfree \x -> x * 2
 <
 
-<Plug>Pointfree ......Run pointfree....................❘PointfreeKey❘
+<Plug>Pointfree .....Run pointfree on current line.....❘PointfreeKey❘
 
 =====================================================================
 Section 2: Config                                   *PointfreeConfig*
