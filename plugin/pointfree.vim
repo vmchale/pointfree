@@ -109,4 +109,5 @@ fun! PointfreeLine() "{{{
 endfunction "}}}
 
 command! -nargs=* Pointfree call PointfreeGet( '<args>' )
+command! PointfreeLine call PointfreeLine()
 map <silent> pf :PointfreeLine<CR>
