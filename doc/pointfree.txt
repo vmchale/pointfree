@@ -10,11 +10,11 @@
 No, it's pointFREE, not a free point!
 
 =====================================================================
-CONTENTS                                         *PointfreeContents*
+CONTENTS                                          *PointfreeContents*
 
-    1. Usage ...................................... ❘PointfreeUsage❘
-    2. Config .................................... ❘PointfreeConfig❘
-    3. License .................................. ❘PointfreeLicense❘
+    1. Usage ....................................... ❘PointfreeUsage❘
+    2. Config ..................................... ❘PointfreeConfig❘
+    3. License ............................,...... ❘PointfreeLicense❘
 
 =====================================================================
 Section 1: Usage                                     *PointfreeUsage*
