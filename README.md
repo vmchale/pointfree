@@ -31,3 +31,9 @@ This is what I use in my `.vimrc`:
 ```vimscript
 au BufNewFile,BufRead *.hs nmap pf <Plug>Pointfree
 ```
+
+If you get stuck at any time:
+
+```vimscript
+:help pointfree
+```
