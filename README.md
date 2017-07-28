@@ -16,7 +16,7 @@ Note that the `pointfree` binary must be on your path. You can install it with:
 
 ## Usage
 
-To use this plugin, either type `:PointfreeLine` on the current line or
+To use this plugin, either type `:PointfreeLine` to run on the current line, or
 `:Pointfree` along with an expression, e.g.
 
 ```vimcsript
@@ -32,7 +32,7 @@ This is what I use in my `.vimrc`:
 au BufNewFile,BufRead *.hs nmap pf <Plug>Pointfree
 ```
 
-If you get stuck at any time:
+If you get stuck at any time, you can view the documentation with:
 
 ```vimscript
 :help pointfree
