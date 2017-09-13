@@ -10,7 +10,7 @@ endif
 let g:pointfree_buf_name = 'Pointfree'
 
 if !exists("g:pointfree_buf_size")
-    let g:pointfree_buf_size = 3
+    let g:pointfree_buf_size = 2
 endif
 
 " Mark a buffer as scratch
@@ -86,7 +86,7 @@ fun! PointfreeGet(expression) "{{{
 
     call s:ScratchMarkBuffer()
 
-    execute '.!pointfree ' . g:pointfree_options . ' "' . a:expression . '"'
+    execute '.!pointfree ' . g:pointfree_options . " '" . a:expression . "'"
     setl nomodifiable
     
     let size = s:CountVisualLines()
