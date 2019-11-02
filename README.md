@@ -11,7 +11,7 @@ Plug 'vmchale/pointfree'
 Note that the `pointfree` binary must be on your path. You can install it with:
 
 ```bash
- $ stack install pointfree
+ $ cabal install pointfree
 ```
 
 ## Usage
