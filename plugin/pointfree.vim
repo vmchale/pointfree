@@ -13,6 +13,14 @@ if !exists("g:pointfree_buf_size")
     let g:pointfree_buf_size = 2
 endif
 
+if !exists("g:pointfree_command")
+    let g:pointfree_command = exepath("pointfree")
+endif
+
+if empty("g:pointfree_command")
+    let g:pointfree_command = "pointfree"
+end
+
 " Mark a buffer as scratch
 function! s:ScratchMarkBuffer()
     setlocal buftype=nofile
@@ -86,7 +94,7 @@ fun! PointfreeGet(expression) "{{{
 
     call s:ScratchMarkBuffer()
 
-    execute '.!pointfree ' . g:pointfree_options . " '" . a:expression . "'"
+    execute '.!' . g:pointfree_command . " " . g:pointfree_options . " '" . a:expression . "'"
     setl nomodifiable
     
     let size = s:CountVisualLines()
